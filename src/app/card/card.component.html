@@ -1,0 +1,40 @@
+<div >   
+  <!--Create  9 product details and render 3 cards in a row-->
+    <div *ngFor="let pdetails of productdetails" style="float:left;">
+      <div class="row" >     
+        <div class="col-sm-4" style="margin-left:200px;">
+                <div class="card" style="width: 18rem;">
+                    <img  style="height:300px" src={{pdetails.image}} class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">{{pdetails.pname}} </h5>
+
+                      <!--Apply style binding for the pdescription in the array-->
+                      <p class="card-text" [style.color]="'Blue'"> {{pdetails.pdescription}}</p>
+
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">{{pdetails.pid}}</li>
+
+                      <!--Based on the "Status" property *ngSwitchCase and use bootstrap contextual class for displaying "Instock" in green and "Out of Stock" in red-->
+
+                      <ul [ngSwitch]="pdetails.status" class="list-group-item" style="font-weight:bold;">
+                        <li *ngSwitchCase="'In Stock'" class="text-success">
+                          {{pdetails.status }}
+                        </li>
+                        <li *ngSwitchCase="'Out of Stock'" class="text-danger">
+                          {{pdetails.status }}
+                        </li>
+                      </ul>
+
+                      <li class="list-group-item" style="font-weight:bold; ">{{pdetails.price | currency:'INR'}}</li>
+                    </ul>
+                    <div class="card-body">
+                      <button style="height: 50px; width: 100px; background-color: rgb(39, 39, 174); font-weight: bold; color: white;" href="#" class="card-link">Buy</button>
+                      <button style="height: 50px; width: 130px; background-color: rgb(188, 82, 7); font-weight: bold; color: white;" href="#" class="card-link">Add to cart</button>
+                    </div>
+                  </div>
+                  <br>
+        </div>
+    </div>
+  </div>
+</div>
