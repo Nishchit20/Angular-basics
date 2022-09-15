@@ -1,8 +1,9 @@
 .box{
     text-align:center; 
-    background-color: blue; 
+    background-color: black; 
     height: 100px; 
-    width: 200px; 
+    width: 20%px; 
     padding-top:10px;
-    margin-left: 30em;
+    margin-left: 40%;
+    margin-right:40%;
 }
