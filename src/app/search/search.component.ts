@@ -7,19 +7,15 @@ import { Component, OnInit,Input } from '@angular/core';
 })
 export class SearchComponent implements OnInit {
 
-  //property - _productname
   _productname:any | undefined;
 
-  //To pass information between components we have @Input and @Output
-
-  @Input('product') //Laptop
-  //write
-  set pname(pname:any) //Laptop
+  @Input('product') 
+  set pname(pname:any) 
   {
     this._productname=pname || 'not found';
     console.log(pname)
   }
-  //read
+  
   get pname():string
   {
     return this._productname;

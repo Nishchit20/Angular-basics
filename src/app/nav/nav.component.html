@@ -17,16 +17,13 @@
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About us</a>
           </li>
         </ul>
-
-
         <form class="d-flex">
           <input class="form-control me-2" #productname type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit" (click)="clickHandler(productname.value);productname.value = '' ">Search</button><br>
           &nbsp;&nbsp;&nbsp;
           <app-search [product]="productentered"></app-search>
         </form>
-
-
       </div>
     </div>
   </nav>
+  

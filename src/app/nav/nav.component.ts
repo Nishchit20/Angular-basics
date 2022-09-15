@@ -10,10 +10,6 @@ export class NavComponent implements OnInit {
   sitename:string = "MyShop"
   amazon_icon:string = "./assets/Images/icon.jpg"
 
-  eventHandler(){
-    alert("Please check whether the credentials are correct")
-  }
-
 
   productentered: string=' '  //Laptop
 

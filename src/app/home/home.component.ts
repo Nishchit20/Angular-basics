@@ -10,6 +10,10 @@ export class HomeComponent implements OnInit {
   pref:string = ""
   content:string = ""
 
+  eventHandler(){
+    alert("Welcome to my shop..")
+  }
+
   constructor() { }
 
   ngOnInit(): void {

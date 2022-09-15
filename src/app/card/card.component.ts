@@ -53,7 +53,7 @@ export class CardComponent implements OnInit {
       "image":"../assets/Images/invertor.jpg",
       "pname": "Hisense Refrigirator",
       "pdescription":" Hisense Inverter Frost-Free Multi-Door with Water Dispenser ",
-      "status": "In Stock",
+      "status": "Out of Stock",
       "price" : "63990"
     },
     {
