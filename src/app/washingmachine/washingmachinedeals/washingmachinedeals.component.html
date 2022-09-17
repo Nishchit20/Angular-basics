@@ -1,0 +1,35 @@
+<div>
+    <div *ngFor="let wm of wmachine" style="border:none;">
+        <div class="row">
+            <div class="card col-lg-12">
+                <div class="card-body col-lg-12">
+                    <div class="row" style="margin-top:10px;border-style:solid ;border-color:black;">
+                        <div class="col-lg-3">
+                            <img src={{wm.image}}>
+                        </div>
+                        <div class="col-lg-9" style="margin-top:20px;">
+                            <div style="font-weight: bold;">
+                                Product: {{wm.pname | uppercase }}
+                                <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+                            </div>
+                            <div [ngSwitch]="wm.status" style="font-weight:bold;">
+                                <span *ngSwitchCase="'In Stock'" class="text-success">
+                                    {{wm.status }}
+                                </span>
+                                <span *ngSwitchCase="'Out of Stock'" class="text-danger">
+                                    {{wm.status }}
+                                </span>
+                            </div>
+                            <hr>
+                            <div [hidden]="productDetail">
+                                <div style="color: blue;"> Description: {{wm.pdescription}}</div>
+                                <br>
+                                <div style="font-weight:bold;"> Price: {{wm.price | currency:'INR'}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

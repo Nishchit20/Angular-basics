@@ -79,7 +79,7 @@ export class CardComponent implements OnInit {
       "pdescription":" boAt Wave Lite Smartwatch with 1.69 HD Display, HR & 7 Days Battery Life",
       "status": "In Stock",
       "price" : "4990"
-    },
+    }
    
   ]
 

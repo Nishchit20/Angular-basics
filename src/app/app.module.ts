@@ -9,6 +9,12 @@ import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { CardComponent } from './card/card.component';
 import { SearchComponent } from './search/search.component';
+import { RefrigeratorComponent } from './refrigerator/refrigerator.component';
+import { MicroovenComponent } from './microoven/microoven.component';
+import { WashingmachineComponent } from './washingmachine/washingmachine.component';
+import { AdvertisementsComponent } from './advertisements/advertisements.component';
+import { AllproductsComponent } from './allproducts/allproducts.component';
+import { WashingmachinedealsComponent } from './washingmachine/washingmachinedeals/washingmachinedeals.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { SearchComponent } from './search/search.component';
     HomeComponent,
     NavComponent,
     CardComponent,
-    SearchComponent
+    SearchComponent,
+    RefrigeratorComponent,
+    MicroovenComponent,
+    WashingmachineComponent,
+    AdvertisementsComponent,
+    AllproductsComponent,
+    WashingmachinedealsComponent,
   ],
   imports: [
     BrowserModule,

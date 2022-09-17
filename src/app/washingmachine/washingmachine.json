@@ -1,0 +1,50 @@
+[
+    {
+        "pid":"001",
+        "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605304770/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/8999312031774.png/mxw_2048,f_auto",
+        "pname": "Samsung",
+        "pdescription":"Samsung 6.5 kg 5 Star Fully Automatic Front Load Washing Machine (12 Wash Programs, WW66R20GKSS/TL, Silver)",
+        "status": "In Stock",
+        "price" : "27990"
+      },
+      {
+        "pid":"002",
+        "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1627294873/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/230345_ym9kp1.png/mxw_2048,f_auto",
+        "pname": "IFB",
+        "pdescription":"IFB 8 kg 5 Star Fully Automatic Front Load Washing Machine (Senator WSS STEAM, Steam Wash Technology, Silver)",
+        "status": "In Stock",
+        "price" : "39990"
+      },
+      {
+        "pid":"003",
+        "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1606070461/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/8978472239134.png/mxw_2048,f_auto",
+        "pname": "Bosch",
+        "pdescription":"Bosch 8 kg 5 Star Inverter Fully Automatic Front Load Washing Machine (Series 6, WAJ2846SIN, EcoSilence Drive, Platinum Silver)",
+        "status": "In Stock",
+        "price" : "41990"
+      },
+      {
+        "pid":"004",
+        "image":"https://www.lg.com/in/images/washing-machines/md07540744/gallery/FHM1207BDL-Washing-Machines-Front-View-D-01.jpg",
+        "pname": "LG",
+        "pdescription":"7.0kg, 6 Motion Direct Drive Washer, Touch Panel, Luxury Silver, Smart Diagnosis™, Baby Care, Front Load Washing Machine ",
+        "status": "Out of Stock",
+        "price" : "48990"
+      },
+      {
+        "pid":"005",
+        "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605132820/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/8937892806686.png/mxw_2048,f_auto",
+        "pname": "Whirlpool",
+        "pdescription":"Whirlpool 7.5 kg 5 Star Fully Automatic Top Load Washing Machine (Stainwash Ultra, 31357, Lint Filter, Grey)",
+        "status": "In Stock",
+        "price" : "20790"
+      },
+      {
+        "pid":"006",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ-TwvBeMRoaqyJkHfSkbmBfln-2mufFyiySYwd1QYsQemqROVelU5o-puR_5Ja2BBzlY&usqp=CAU",
+        "pname": "Haier",
+        "pdescription":" 8 Kg, Front Load Fully Automatic Washing Machine, Lifetime Warranty On Direct Motion Motor",
+        "status": "Out of Stock",
+        "price" : "63000"
+      }
+]

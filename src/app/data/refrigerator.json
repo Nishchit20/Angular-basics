@@ -1,0 +1,50 @@
+[
+    {
+        "pid":"001",
+        "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/refrigerator-new/o/x/j/-original-imaghgfhfwxh2stz.jpeg?q=70",
+        "pname": "realme Techlife",
+        "pdescription":"realme TechLife 631 L Frost Free Side by Side Refrigerator  (Silver Steel, 631GSRM)",
+        "status": "In Stock",
+        "price" : "62990"
+      },
+      {
+        "pid":"002",
+        "image":"https://rukminim1.flixcart.com/image/832/832/kmmcrrk0/refrigerator-new/g/w/a/cdsd522170ms-2-2021-candy-original-imagfhgtv5z8gyua.jpeg?q=70",
+        "pname": "Candy",
+        "pdescription":"CANDY 170 L Direct Cool Single Door 2 Star Refrigerator  (Moon Silver, CDSD522170MS)",
+        "status": "Out of Stock",
+        "price" : "9990"
+      },
+      {
+        "pid":"003",
+        "image":"https://rukminim1.flixcart.com/image/832/832/kk1h5e80/refrigerator-new/c/d/j/rt28a3453s8-hl-3-2021-samsung-original-imafzhedepq6z5r8.jpeg?q=70",
+        "pname": "Samsung",
+        "pdescription":"SAMSUNG 253 L Frost Free Double Door 3 Star Refrigerator  (Elegant Inox, RT28A3453S8/HL)",
+        "status": "In Stock",
+        "price" : "25890"
+      },
+      {
+        "pid":"004",
+        "image":"../assets/Images/oneplus.jpg",
+        "pname": "One Plus Nord CE",
+        "pdescription":"OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage) ",
+        "status": "In Stock",
+        "price" : "18990"
+      },
+      {
+        "pid":"005",
+        "image":"https://rukminim1.flixcart.com/image/832/832/ku4ezrk0/refrigerator-new/c/z/o/gl-b201rpzd-3-2020-lg-original-imag7bh83fz2jemx.jpeg?q=70",
+        "pname": "LG",
+        "pdescription":" LG 190 L Direct Cool Single Door 3 Star Refrigerator  (Shiny Steel, GL-B201RPZD)",
+        "status": "Out of Stock",
+        "price" : "13990"
+      },
+      {
+        "pid":"006",
+        "image":"https://rukminim1.flixcart.com/image/612/612/kvvad8w0/refrigerator-new/r/d/j/-original-imag8zf9dccxafar.jpeg?q=70",
+        "pname": "MarQ",
+        "pdescription":" MarQ by Flipkart 190 L Direct Cool Single Door 3 Star Refrigerator  (Blue, 190BD3MQR2)",
+        "status": "Out of Stock",
+        "price" : "11190"
+      }
+]
