@@ -1,0 +1,27 @@
+<div class="card-body col-lg-12">
+    <div class="row" style="margin-top:20px;border-style:solid;border-color:black;border-radius:15px;">
+        <div class="col-lg-3">
+            <img [src]="product.image">
+        </div>
+        <div class="col-lg-9" style="margin-top:20px;">
+            <div style="font-weight: bold;">
+                Product: {{product.pname | uppercase }}
+                <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+            </div>
+            <div [ngSwitch]="product.status" style="font-weight:bold;">
+                <span *ngSwitchCase="'In Stock'" class="text-success">
+                    {{product.status }}
+                </span>
+                <span *ngSwitchCase="'Out of Stock'" class="text-danger">
+                    {{product.status }}
+                </span>
+            </div>
+            <hr>
+            <div [hidden]="productDetail">
+                <div style="color: blue;"> Description: {{product.pdescription}}</div>
+                <br>
+                <div style="font-weight:bold;"> Price: {{product.price | currency:'INR'}}</div>
+                <app-counter></app-counter>
+            </div>
+        </div>
+    </div>

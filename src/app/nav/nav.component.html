@@ -20,9 +20,18 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" routerLink="fridge">Refrigerator</a></li>
               <li><a class="dropdown-item" routerLink="washingmachine">Washing machine</a></li>
+              <li><a class="dropdown-item" routerLink="microoven">Microoven</a></li>
+              <li><a class="dropdown-item" routerLink="myshop">Deals</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" routerLink="deals">Microoven</a></li>
+              <li><a class="dropdown-item" routerLink="television">Television</a></li>
+              <li><a class="dropdown-item" routerLink="laptop">Laptop</a></li>
+              <li><a class="dropdown-item" routerLink="mobile">Mobile</a></li>
+              <li><a class="dropdown-item" routerLink="watch">Watches</a></li>
+
             </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="contact" >Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About us</a>
@@ -32,6 +41,7 @@
           <input class="form-control me-2" #productname type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit" (click)="clickHandler(productname.value);productname.value = '' ">Search</button><br>
           &nbsp;&nbsp;&nbsp;
+          <br>
           <app-search [product]="productentered"></app-search>
         </form>
       </div>

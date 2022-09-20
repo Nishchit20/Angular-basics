@@ -1,0 +1,42 @@
+[
+    {
+        "pid":"001",
+        "image":"https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8&w=1000&q=80",
+        "pname": "Apple",
+        "pdescription":"This is one of thge best laptop",
+        "status": "In Stock",
+        "price" : "125999"
+      },
+      {
+        "pid":"002",
+        "image":"https://img4.gadgetsnow.com/gd/images/products/additional/large/G236226_View_1/electronics/televisions/samsung-ua43aue70ak-43-inch-led-4k-3840-x-2160-pixels-tv.jpg",
+        "pname": "Samsung",
+        "pdescription":"Samsung UA43AUE70AK  43 Inch LED 4K, 3840 X 2160 Pixels TV",
+        "status": "Out of Stock",
+        "price" : "36990"
+      },
+      {
+        "pid":"003",
+        "image":"https://5.imimg.com/data5/GH/KV/MY-3094430/electronics-lcd-tv-500x500.jpg",
+        "pname": "APEC",
+        "pdescription":"APEC Electronics LED Television",
+        "status": "In Stock",
+        "price" : "16990"
+      },
+      {
+        "pid":"004",
+        "image":"https://img6.gadgetsnow.com/gd/images/products/additional/large/G227731_View_1/electronics/televisions/panasonic-th-43jx750dx-43-inch-led-4k-3840-x-2160-pixels-tv.jpg",
+        "pname": "Panasonic",
+        "pdescription":"Panasonic TH-43JX750DX 43 Inch LED 4K, 3840 X 2160 Pixels TV ",
+        "status": "In Stock",
+        "price" : "56990"
+      },
+      {
+        "pid":"005",
+        "image":"https://img5.gadgetsnow.com/gd/images/products/additional/large/G220437_View_1/electronics/televisions/hisense-70a71f-70-inch-led-4k-3840-x-2160-pixels-tv.jpg",
+        "pname": "Hisense",
+        "pdescription":" Hisense 70A71F 70 Inch LED 4K, 3840 X 2160 Pixels TV",
+        "status": "Out of Stock",
+        "price" : "73990"
+      }
+]

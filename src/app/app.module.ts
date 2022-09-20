@@ -15,9 +15,18 @@ import { WashingmachineComponent } from './washingmachine/washingmachine.compone
 import { AdvertisementsComponent } from './advertisements/advertisements.component';
 import { AllproductsComponent } from './allproducts/allproducts.component';
 import { WashingmachinedealsComponent } from './washingmachine/washingmachinedeals/washingmachinedeals.component';
+import { TelevisionComponent } from './television/television.component';
+import { DealsComponent } from './deals/deals.component';
+import { MyshopdealsComponent } from './deals/myshopdeals/myshopdeals.component';
+import { CounterComponent } from './counter/counter.component';
+import { CounterchildComponent } from './counter/counterchild/counterchild.component';
+import { ShoedealsComponent } from './shoes/shoedeals/shoedeals.component';
+import { ShoesComponent } from './shoes/shoes.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
+    AllproductsComponent,
     AppComponent,
     HomeComponent,
     NavComponent,
@@ -29,6 +38,14 @@ import { WashingmachinedealsComponent } from './washingmachine/washingmachinedea
     AdvertisementsComponent,
     AllproductsComponent,
     WashingmachinedealsComponent,
+    TelevisionComponent,
+    DealsComponent,
+    MyshopdealsComponent,
+    CounterComponent,
+    CounterchildComponent,
+    ShoedealsComponent,
+    ShoesComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,19 @@
+<div style="margin-top: 30px;">
+    <div class="row">
+        <!--1st column-->
+        <div class="col col-lg-3">
+            <img src="../assets/Images/side2.jpg" style="height: 100%;width: 100%; " alt="image">
+        </div>
+
+        <!--2nd column-->
+        <div class="card col-lg-6" style="border:none;">
+            <app-deals [product]="productItem" *ngFor="let productItem of all"></app-deals>
+        </div>
+        <!--3rd column-->
+        <div class="col col-lg-3">
+            <app-advertisements></app-advertisements>
+        </div>
+    </div>
+</div>
+
+
