@@ -4,6 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 
+import { ReactiveFormsModule } from '@angular/forms';
+
+import { HttpClientModule } from '@angular/common/http';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
@@ -23,6 +27,10 @@ import { CounterchildComponent } from './counter/counterchild/counterchild.compo
 import { ShoedealsComponent } from './shoes/shoedeals/shoedeals.component';
 import { ShoesComponent } from './shoes/shoes.component';
 import { ContactComponent } from './contact/contact.component';
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { CartItemsComponent } from './cart-items/cart-items.component';
 
 @NgModule({
   declarations: [
@@ -46,11 +54,17 @@ import { ContactComponent } from './contact/contact.component';
     ShoedealsComponent,
     ShoesComponent,
     ContactComponent,
+    ProductdetailsComponent,
+    RegisterComponent,
+    LoginComponent,
+    CartItemsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

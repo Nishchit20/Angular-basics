@@ -3,8 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+  userapi:"http://localhost:3000/users",
+  cartapi:"http://localhost:3000/cart",
+  //postsapi:"https://fake-server-app-angular-amazon.herokuapp.com/posts",
+  //userapi:"https://fake-server-app-angular-amazon.herokuapp.com/users",
+  //cartapi:"https://fake-server-app-angular-amazon.herokuapp.com/cart"
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file

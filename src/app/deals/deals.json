@@ -38,5 +38,101 @@
         "pdescription":" Hisense 70A71F 70 Inch LED 4K, 3840 X 2160 Pixels TV",
         "status": "Out of Stock",
         "price" : "73990"
+      },
+      {
+        "pid":"006",
+        "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/refrigerator-new/o/x/j/-original-imaghgfhfwxh2stz.jpeg?q=70",
+        "pname": "realme Techlife",
+        "pdescription":"realme TechLife 631 L Frost Free Side by Side Refrigerator  (Silver Steel, 631GSRM)",
+        "status": "In Stock",
+        "price" : "62990"
+      },
+      {
+        "pid":"007",
+        "image":"https://rukminim1.flixcart.com/image/832/832/kmmcrrk0/refrigerator-new/g/w/a/cdsd522170ms-2-2021-candy-original-imagfhgtv5z8gyua.jpeg?q=70",
+        "pname": "Candy",
+        "pdescription":"CANDY 170 L Direct Cool Single Door 2 Star Refrigerator  (Moon Silver, CDSD522170MS)",
+        "status": "Out of Stock",
+        "price" : "9990"
+      },
+      {
+        "pid":"008",
+        "image":"https://rukminim1.flixcart.com/image/832/832/kk1h5e80/refrigerator-new/c/d/j/rt28a3453s8-hl-3-2021-samsung-original-imafzhedepq6z5r8.jpeg?q=70",
+        "pname": "Samsung",
+        "pdescription":"SAMSUNG 253 L Frost Free Double Door 3 Star Refrigerator  (Elegant Inox, RT28A3453S8/HL)",
+        "status": "In Stock",
+        "price" : "25890"
+      },
+      {
+        "pid":"009",
+        "image":"../assets/Images/oneplus.jpg",
+        "pname": "One Plus Nord CE",
+        "pdescription":"OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage) ",
+        "status": "In Stock",
+        "price" : "18990"
+      },
+      {
+        "pid":"010",
+        "image":"https://rukminim1.flixcart.com/image/832/832/ku4ezrk0/refrigerator-new/c/z/o/gl-b201rpzd-3-2020-lg-original-imag7bh83fz2jemx.jpeg?q=70",
+        "pname": "LG",
+        "pdescription":" LG 190 L Direct Cool Single Door 3 Star Refrigerator  (Shiny Steel, GL-B201RPZD)",
+        "status": "Out of Stock",
+        "price" : "13990"
+      },
+      {
+        "pid":"011",
+        "image":"https://rukminim1.flixcart.com/image/612/612/kvvad8w0/refrigerator-new/r/d/j/-original-imag8zf9dccxafar.jpeg?q=70",
+        "pname": "MarQ",
+        "pdescription":" MarQ by Flipkart 190 L Direct Cool Single Door 3 Star Refrigerator  (Blue, 190BD3MQR2)",
+        "status": "Out of Stock",
+        "price" : "11190"
+      },
+      {
+        "pid":"012",
+        "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605304770/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/8999312031774.png/mxw_2048,f_auto",
+        "pname": "Samsung",
+        "pdescription":"Samsung 6.5 kg 5 Star Fully Automatic Front Load Washing Machine (12 Wash Programs, WW66R20GKSS/TL, Silver)",
+        "status": "In Stock",
+        "price" : "27990"
+      },
+      {
+        "pid":"013",
+        "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1627294873/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/230345_ym9kp1.png/mxw_2048,f_auto",
+        "pname": "IFB",
+        "pdescription":"IFB 8 kg 5 Star Fully Automatic Front Load Washing Machine (Senator WSS STEAM, Steam Wash Technology, Silver)",
+        "status": "In Stock",
+        "price" : "39990"
+      },
+      {
+        "pid":"014",
+        "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1606070461/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/8978472239134.png/mxw_2048,f_auto",
+        "pname": "Bosch",
+        "pdescription":"Bosch 8 kg 5 Star Inverter Fully Automatic Front Load Washing Machine (Series 6, WAJ2846SIN, EcoSilence Drive, Platinum Silver)",
+        "status": "In Stock",
+        "price" : "41990"
+      },
+      {
+        "pid":"015",
+        "image":"https://www.lg.com/in/images/washing-machines/md07540744/gallery/FHM1207BDL-Washing-Machines-Front-View-D-01.jpg",
+        "pname": "LG",
+        "pdescription":"7.0kg, 6 Motion Direct Drive Washer, Touch Panel, Luxury Silver, Smart Diagnosis™, Baby Care, Front Load Washing Machine ",
+        "status": "Out of Stock",
+        "price" : "48990"
+      },
+      {
+        "pid":"016",
+        "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605132820/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/8937892806686.png/mxw_2048,f_auto",
+        "pname": "Whirlpool",
+        "pdescription":"Whirlpool 7.5 kg 5 Star Fully Automatic Top Load Washing Machine (Stainwash Ultra, 31357, Lint Filter, Grey)",
+        "status": "In Stock",
+        "price" : "20790"
+      },
+      {
+        "pid":"017",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ-TwvBeMRoaqyJkHfSkbmBfln-2mufFyiySYwd1QYsQemqROVelU5o-puR_5Ja2BBzlY&usqp=CAU",
+        "pname": "Haier",
+        "pdescription":" 8 Kg, Front Load Fully Automatic Washing Machine, Lifetime Warranty On Direct Motion Motor",
+        "status": "Out of Stock",
+        "price" : "63000"
       }
 ]

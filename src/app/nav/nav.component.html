@@ -8,12 +8,18 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+            <a class="nav-link active" aria-current="page" routerLink="register" *ngIf="!auth">Register</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="card">Card</a>
+            <a class="nav-link active" aria-current="page" routerLink="home" *ngIf="auth">Home</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="card" *ngIf="auth">Card</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="products" *ngIf="auth">Product</a>
+          </li>
+          <li class="nav-item dropdown" *ngIf="auth">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               More
             </a>
@@ -30,19 +36,26 @@
 
             </ul>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" *ngIf="auth">
             <a class="nav-link" routerLink="contact" >Contact</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" *ngIf="auth">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About us</a>
           </li>
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" #productname type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit" (click)="clickHandler(productname.value);productname.value = '' ">Search</button><br>
+          <input class="form-control me-2" #productname type="search" placeholder="Search" aria-label="Search" >
+          <button class="btn btn-outline-success" type="submit" (click)="clickHandler(productname.value);productname.value = '' "> Search</button><br>
           &nbsp;&nbsp;&nbsp;
+
+          <button routerLink='cart' style="height:5px;border:none;" *ngIf="auth">
+            <span class="fa fa-cart-plus" style="font-size:16px;color:black"><sup class="text-warning" style="font-size:10px;margin-left: 3px;;">{{cartCount}}</sup></span>
+          </button> &nbsp;&nbsp;&nbsp;
+          <a class="btn btn-outline-warning" type="submit" style="border-radius:10px;color:black;" routerLink="login"
+            *ngIf="auth">Logout</a>
           <br>
-          <app-search [product]="productentered"></app-search>
+          <!--<app-search [product]="productentered"></app-search>-->
+
         </form>
       </div>
     </div>
