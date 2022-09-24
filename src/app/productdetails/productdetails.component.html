@@ -22,12 +22,12 @@
     </thead>
     <tbody>
       <tr *ngFor="let product of productData">
-        <td>{{product.pid}}</td>
+        <td>{{product.id}}</td>
         <td>{{product.pname}}</td>
         <td>{{product.pdescription}}</td>
         <td>{{product.price}}</td>
         <td>
-          <img [src]="product.image" class="prodimg">
+          <img [src]="product.img" class="prodimg">
         </td>
         <td>
           <button (click)="onEdit(product)" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -51,7 +51,7 @@
           <form [formGroup]="formValue">
             <div class="mb-3">
               <label class="form-label">Name</label>
-              <input type="pname" class="form-control" formControlName="pname">
+              <input type="pname" required class="form-control" formControlName="pname" >
             </div>
             <div class="mb-3">
               <label class="form-label">Description</label>
