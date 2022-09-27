@@ -4,7 +4,7 @@
       "id": 2,
       "pname": "Candy",
       "pdescription": "CANDY 170 L Direct Cool Single Door 2 Star Refrigerator  (Moon Silver, CDSD522170MS)",
-      "price": "9990",
+      "price": "9999",
       "img": "https://www.bing.com/th?id=OIP.e7DA6Wu6Ozp-L9XBVSB7SQHaE8&w=139&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
     },
     {
@@ -34,12 +34,6 @@
       "pname": "MarQ",
       "pdescription": " MarQ by Flipkart 190 L Direct Cool Single Door 3 Star Refrigerator  (Blue, 190BD3MQR2)",
       "price": "11190"
-    },
-    {
-      "id": 7,
-      "pname": "Apple",
-      "pdescription": "This is one of thge best laptop",
-      "img": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8&w=1000&q=80"
     },
     {
       "id": 8,
@@ -112,24 +106,45 @@
       "password": "069640",
       "mobile": "9741364080",
       "id": 6
+    },
+    {
+      "username": "pallavi",
+      "useremail": "pallavi@gmail.com",
+      "password": "012345",
+      "mobile": "9876543210",
+      "id": 7
+    },
+    {
+      "username": "Nishchit",
+      "useremail": "she@gmail.com",
+      "password": "012345",
+      "mobile": "12345678",
+      "id": 8
+    },
+    {
+      "username": "Nishchit",
+      "useremail": "nish@gmail.com",
+      "password": "123456",
+      "mobile": "9876543210",
+      "id": 9
     }
   ],
   "cart": [
     {
+      "pname": "Panasonic",
+      "pdescription": "Panasonic TH-43JX750DX 43 Inch LED 4K, 3840 X 2160 Pixels TV ",
+      "price": "56990",
+      "image": "https://img6.gadgetsnow.com/gd/images/products/additional/large/G227731_View_1/electronics/televisions/panasonic-th-43jx750dx-43-inch-led-4k-3840-x-2160-pixels-tv.jpg",
+      "quantity": 1,
+      "id": 9
+    },
+    {
       "pname": "Apple",
       "pdescription": "This is one of thge best laptop",
       "price": "125999",
-      "img": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8&w=1000&q=80",
-      "quantity": 1,
-      "id": 5
-    },
-    {
-      "pname": "APEC",
-      "pdescription": "APEC Electronics LED Television",
-      "price": "16990",
-      "img": "https://5.imimg.com/data5/GH/KV/MY-3094430/electronics-lcd-tv-500x500.jpg",
-      "quantity": 1,
-      "id": 7
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8&w=1000&q=80",
+      "quantity": 3,
+      "id": 10
     }
   ]
 }
